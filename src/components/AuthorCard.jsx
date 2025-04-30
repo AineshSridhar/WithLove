@@ -20,11 +20,11 @@ const AuthorCard = () => {
         <div className="mt-12">
           <h2 className="text-xl font-serif font-bold mt-2">Ainesh Sridhar</h2>
           <p className="text-sm text-gray-600 mt-3 mb-4 max-w-xs mx-auto">
-            For as long as I can remember I've been obsessed with the idea of
-            travel. I was always that person who was forever daydreaming of
-            foreign lands and unfamiliar cultures; coming up with travel
-            itineraries that would challenge my perceptions and help me gain a
-            deeper understanding of the world.
+            For as long as I can remember, I've been captivated by the quiet
+            strength and unwavering presence of mothers. Through my words, I
+            hope to explore the depth of their love, the complexity of their
+            roles, and the profound impact they have on shaping not just
+            families, but entire generations.
           </p>
 
           <div className="mt-4">

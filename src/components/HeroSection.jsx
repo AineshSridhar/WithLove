@@ -6,7 +6,7 @@ const HeroSection = () => {
     <section className="relative h-130 flex items-center justify-center">
       {/* Use an image from the public directory */}
       <img
-        src="/pic5.webp"
+        src="/hero1.webp"
         alt="Mother_with_child"
         className="absolute inset-0 w-full h-full object-cover"
         style = {{objectPosition: '90% 40%'}}
