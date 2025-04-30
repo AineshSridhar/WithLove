@@ -1,0 +1,93 @@
+[
+    {
+      "id": "1",
+      "title": "A Mother's Love: An Unbreakable Bond",
+      "date": "2024-03-10",
+      "author": "Eleanor Vance",
+      "categories": ["Emotional Bond"],
+      "tags": ["Love", "Bond", "Sacrifice"],
+      "content": "...",
+      "imageUrl": "/pic1.jpg"
+    },
+    {
+      "id": "2",
+      "title": "The Strength of a Mother",
+      "date": "2024-03-12",
+      "author": "Maria Rodriguez",
+      "categories": ["Inspiration"],
+      "tags": ["Strength", "Resilience", "Perseverance"],
+      "content": "...",
+      "imageUrl": "/pic2.jpeg"
+    },
+    {
+      "id": "3",
+      "title": "The Wisdom of a Mother's Advice",
+      "date": "2024-03-15",
+      "author": "Samuel Kim",
+      "categories": ["Guidance"],
+      "tags": ["Advice", "Guidance", "Life Lessons"],
+      "content": "...",
+      "imageUrl": "/pic3.jpg"
+    },
+    {
+      "id": "4",
+      "title": "A Mother's Unconditional Love",
+      "date": "2024-03-18",
+      "author": "Olivia Green",
+      "categories": ["Unconditional Love"],
+      "tags": ["Acceptance", "Support", "Devotion"],
+      "content": "...",
+      "imageUrl": "/pic4.jpg"
+    },
+    {
+      "id": "5",
+      "title": "The Many Roles of a Mother",
+      "date": "2024-03-20",
+      "author": "Ethan Miller",
+      "categories": ["Versatility"],
+      "tags": ["Caregiver", "Teacher", "Friend"],
+      "content": "...",
+      "imageUrl": "/mothers-day-5.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Lessons from a Mother's Journey",
+      "date": "2024-03-22",
+      "author": "Grace Patel",
+      "categories": ["Life Journey"],
+      "tags": ["Parenting", "Growth", "Reflections"],
+      "content": "...",
+      "imageUrl": "/pic6.jpg"
+    },
+    {
+      "id": "7",
+      "title": "The Silent Sacrifices of Motherhood",
+      "date": "2024-03-24",
+      "author": "Liam Chen",
+      "categories": ["Sacrifice"],
+      "tags": ["Selflessness", "Dedication", "Love"],
+      "content": "...",
+      "imageUrl": "/pic7.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Motherhood and Mental Strength",
+      "date": "2024-03-26",
+      "author": "Ayesha Khan",
+      "categories": ["Mental Wellness"],
+      "tags": ["Endurance", "Balance", "Inner Peace"],
+      "content": "...",
+      "imageUrl": "/pic8.jpg"
+    },
+    {
+      "id": "9",
+      "title": "The Joy in Small Moments",
+      "date": "2024-03-28",
+      "author": "Daniela Costa",
+      "categories": ["Mindfulness"],
+      "tags": ["Joy", "Moments", "Presence"],
+      "content": "...",
+      "imageUrl": "/pic9.jpg"
+    }
+  ]
+  
