@@ -6,7 +6,9 @@ const ArticleCard = ({ title, category, time, excerpt, imageUrl, id }) => {
 
   const handleReadMore = () => {
     // Navigate to the dynamic page (could be a detailed article page)
-    navigate(`/article/${id}`);
+    console.log("Article ID:", id);
+
+    navigate(`/blog/${id}`);
   };
 
   return (

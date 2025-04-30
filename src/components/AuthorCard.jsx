@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa"; // Import specific icons
+import { FaFacebook, FaInstagram, FaTwitter, FaYoutube, FaSpotify } from "react-icons/fa"; // Import specific icons
 
 const AuthorCard = () => {
   return (
@@ -10,7 +10,7 @@ const AuthorCard = () => {
           <div className="w-24 h-24 bg-gray-200 rounded-full flex items-center justify-center">
             <img
               src="/Ainesh Sridhar.jpg"
-              alt="Mother_with_child"
+              alt="Author"
               className="absolute inset-0 w-full object-cover rounded-full"
             />
           </div>
@@ -32,29 +32,33 @@ const AuthorCard = () => {
             <div className="flex justify-center gap-3">
               <a
                 href="#"
-                className="bg-black w-8 h-8 flex items-center justify-center"
+                className="bg-white w-8 h-8 flex items-center justify-center rounded-full"
               >
-                <span className="text-white text-sm">
-                  <FaFacebook size={30} />
-                </span>
+                <FaFacebook className="text-black" size={30} />
               </a>
               <a
                 href="#"
-                className="bg-black w-8 h-8 flex items-center justify-center"
+                className="bg-white w-8 h-8 flex items-center justify-center rounded-full"
               >
-                <span className="text-white text-sm">📷</span>
+                <FaInstagram className="text-black" size={30} />
               </a>
               <a
                 href="#"
-                className="bg-black w-8 h-8 flex items-center justify-center"
+                className="bg-white w-8 h-8 flex items-center justify-center rounded-full"
               >
-                <span className="text-white text-sm">▶</span>
+                <FaTwitter className="text-black" size={30} />
               </a>
               <a
                 href="#"
-                className="bg-black w-8 h-8 flex items-center justify-center"
+                className="bg-white w-8 h-8 flex items-center justify-center rounded-full"
               >
-                <span className="text-white text-sm">S</span>
+                <FaYoutube className="text-black" size={30} />
+              </a>
+              <a
+                href="#"
+                className="bg-white w-8 h-8 flex items-center justify-center rounded-full"
+              >
+                <FaSpotify className="text-black" size={30} />
               </a>
             </div>
           </div>

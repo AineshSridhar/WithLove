@@ -8,11 +8,12 @@ const RecentArticles = () => {
   const navigate = useNavigate();
 
   return (
-    <section className="px-6 py-8">
+    <section className="px-6 py-2">
       <h3 className="text-xl font-semibold mb-4">Recent articles</h3>
       {blogData.slice(0, 3).map((article) => (
         <ArticleCard
           key={article.id}
+          id={article.id}
           title={article.title}
           category={article.categories[0]}
           time="5"

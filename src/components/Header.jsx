@@ -10,11 +10,11 @@ const Header = () => {
 
   return (
     <>
-      <header className="absolute top-0 left-0 right-0 z-30 flex justify-between items-center px-6 py-4 bg-transparent"> {/* Changed to absolute and transparent background */}
+      <header className="absolute top-0 left-0 right-0 z-30 flex justify-between items-center px-6 text-white py-4 bg-transparent"> {/* Changed to absolute and transparent background */}
         <button onClick={toggleNav} className="text-xl focus:outline-none">
           {isNavOpen ? <XMarkIcon className="h-6 w-6" /> : "☰"}
         </button>
-        <h1 className="text-lg font-semibold">Personal Travel Blog</h1>
+        <h1 className="text-lg font-semibold">With Love</h1>
         <button className="text-xl focus:outline-none">
           <MagnifyingGlassIcon className="h-6 w-6" />
         </button>
