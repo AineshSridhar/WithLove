@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import for routing
+import { useNavigate } from 'react-router-dom'; 
 import Header from "../components/Header";
-import blogData from '../data/blogData.json'; // Adjust the path if needed
+import blogData from '../data/blogData.json';
 
 const HeroSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const navigate = useNavigate(); // Hook for navigation
+  const navigate = useNavigate(); 
 
   const nextBlog = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % blogData.length);
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % 5);
   };
 
   useEffect(() => {

@@ -10,13 +10,13 @@ const imagePaths = [
   "/pic2.jpeg",
   "/pic3.jpg",
   "/pic4.jpg",
-  "/pic5.jpg",
-  "/pic6.jpg",
+  "/pic5.avif",
+  "/pic6.jpeg",
 ];
 
 const ContactPage = () => {
   return (
-    <div className="bg-white text-gray-800">
+    <div className="bg-white text-gray-800 mt-10">
       {/* Contact Section */}
       <section className="py-12 px-8 lg:px-24">
         <h2 className="text-3xl font-bold mb-8">Contact</h2>

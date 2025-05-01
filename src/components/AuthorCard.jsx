@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaTwitter, FaYoutube, FaSpotify } from "react-icons/fa"; // Import specific icons
+import { FaFacebook, FaInstagram, FaTwitter, FaYoutube, FaSpotify, FaLinkedin } from "react-icons/fa"; // Import specific icons
 
 const AuthorCard = () => {
   return (
@@ -31,34 +31,16 @@ const AuthorCard = () => {
             <p className="font-medium mb-3">Follow me</p>
             <div className="flex justify-center gap-3">
               <a
-                href="#"
+                href="https://www.linkedin.com/in/ainesh-sridhar-17bb39251/"
                 className="bg-white w-8 h-8 flex items-center justify-center rounded-full"
               >
-                <FaFacebook className="text-black" size={30} />
-              </a>
-              <a
-                href="#"
-                className="bg-white w-8 h-8 flex items-center justify-center rounded-full"
-              >
-                <FaInstagram className="text-black" size={30} />
-              </a>
-              <a
-                href="#"
-                className="bg-white w-8 h-8 flex items-center justify-center rounded-full"
-              >
-                <FaTwitter className="text-black" size={30} />
+                <FaLinkedin className="text-black" size={30} />
               </a>
               <a
                 href="#"
                 className="bg-white w-8 h-8 flex items-center justify-center rounded-full"
               >
                 <FaYoutube className="text-black" size={30} />
-              </a>
-              <a
-                href="#"
-                className="bg-white w-8 h-8 flex items-center justify-center rounded-full"
-              >
-                <FaSpotify className="text-black" size={30} />
               </a>
             </div>
           </div>

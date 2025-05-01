@@ -5,7 +5,7 @@ import blogData from "../data/blogData.json";
 const FrequentlyRead = () => {
   const navigate = useNavigate();
   const scrollRef = useRef();
-  const frequentlyRead = blogData.slice(1, 9); // Pick 8 articles
+  const frequentlyRead = blogData.slice(1, 6); // Pick 8 articles
 
   const scroll = (direction) => {
     if (scrollRef.current) {
@@ -25,13 +25,13 @@ const FrequentlyRead = () => {
       {/* Arrows */}
       <button
         onClick={() => scroll("left")}
-        className="absolute left-2 top-1/2 transform -translate-y-1/2 text-white bg-black p-2 rounded-full z-10 shadow"
+        className="absolute left-2 top-1/2 transform -translate-y-1/2 text-white bg-black p-2 rounded-full z-10 shadow cursor-pointer"
       >
         &lt;
       </button>
       <button
         onClick={() => scroll("right")}
-        className="absolute right-2 top-1/2 transform -translate-y-1/2 text-white bg-black p-2 rounded-full z-10 shadow"
+        className="absolute right-2 top-1/2 transform -translate-y-1/2 text-white bg-black p-2 rounded-full z-10 shadow cursor-pointer"
       >
         &gt;
       </button>
@@ -46,7 +46,7 @@ const FrequentlyRead = () => {
           {frequentlyRead.map((article) => (
             <div
               key={article.id}
-              className="min-w-[280px] max-w-xs p-4 flex-shrink-0 rounded-md"
+              className="min-w-[280px] max-w-xs p-4 flex-shrink-0 rounded-md hover:bg-white"
             >
               <img
                 src={article.imageUrl}
