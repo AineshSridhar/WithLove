@@ -3,8 +3,8 @@ import CategorySection from "../components/CategorySection";
 import RecentArticles from "../components/RecentArticles";
 import AuthorCard from "../components/AuthorCard";
 import Destination from "../components/Destination";
-import Footer from "../components/Footer";
 import HeroSection from "../components/HeroSection";
+import FrequentlyRead from "../components/FrequentlyRead";
 
 
 const HomePage = () => {
@@ -20,6 +20,7 @@ const HomePage = () => {
             <Destination />
           </div>
         </div>
+      <FrequentlyRead/>
       </div>
     </div>
   );

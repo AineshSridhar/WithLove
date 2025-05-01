@@ -1,6 +1,8 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import blogData from "../data/blogData.json";
+import FrequentlyRead from "../components/FrequentlyRead";
+import Header from "../components/Header";
 
 const BlogPage = () => {
   const { id } = useParams();
@@ -9,7 +11,9 @@ const BlogPage = () => {
   if (!article) return <p className="p-6 text-center text-gray-500">Article not found.</p>;
 
   return (
-    <div className="px-6 py-10 max-w-4xl mx-auto bg-white text-black font-serif">
+    <>
+    <Header/>
+    <div className="px-6 py-25 max-w-4xl mx-auto bg-white text-black font-serif">
       {/* Title */}
       <h1 className="text-4xl font-bold mb-3 tracking-tight">{article.title}</h1>
 
@@ -33,9 +37,12 @@ const BlogPage = () => {
 
       {/* Footer Line */}
       <hr className="my-10 border-black" />
-      <p className="text-center text-xs text-gray-400">Thanks for reading ♥</p>
+      <p className="text-center text-xs text-gray-400 mb-10">Thanks for reading ♥</p>
+      <FrequentlyRead/>
     </div>
+    </>
   );
 };
+
 
 export default BlogPage;

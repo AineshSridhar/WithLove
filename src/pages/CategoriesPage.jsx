@@ -15,7 +15,7 @@ const CategoriesPage = () => {
   }, {});
 
   return (
-    <div className="px-6 py-10 max-w-6xl mx-auto text-black font-serif bg-white">
+    <div className="px-6 py-25 max-w-6xl mx-auto text-black font-serif bg-white">
       <h1 className="text-4xl font-bold mb-10 text-center">Explore by Categories</h1>
 
       {Object.entries(categoriesMap).map(([category, blogs]) => (
