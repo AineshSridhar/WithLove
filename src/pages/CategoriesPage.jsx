@@ -68,7 +68,10 @@ const CategoriesPage = () => {
                 <div
                   key={blog.id}
                   className="bg-white text-black p-6 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 cursor-pointer"
-                  onClick={() => navigate(`/blog/${blog.id}`)}
+                  onClick={() => {
+                    navigate(`/blog/${blog.id}`);
+                    window.scrollTo(0, 0);
+                  }}
                 >
                   <img
                     src={blog.imageUrl}

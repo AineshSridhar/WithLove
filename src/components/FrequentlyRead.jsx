@@ -5,7 +5,7 @@ import blogData from "../data/blogData.json";
 const FrequentlyRead = () => {
   const navigate = useNavigate();
   const scrollRef = useRef();
-  const frequentlyRead = blogData.slice(1, 6); // Pick 8 articles
+  const frequentlyRead = blogData.slice(1, 6); // Pick 5 articles
 
   const scroll = (direction) => {
     if (scrollRef.current) {
@@ -46,7 +46,12 @@ const FrequentlyRead = () => {
           {frequentlyRead.map((article) => (
             <div
               key={article.id}
-              className="min-w-[280px] max-w-xs p-4 flex-shrink-0 rounded-md hover:bg-white"
+              onClick={() => {
+                navigate(`/blog/${article.id}`);
+                window.scrollTo(0, 0);
+              }}
+              
+              className="min-w-[280px] max-w-xs p-4 flex-shrink-0 rounded-md hover:bg-white cursor-pointer transition-transform hover:scale-[1.02]"
             >
               <img
                 src={article.imageUrl}
@@ -54,15 +59,9 @@ const FrequentlyRead = () => {
                 className="w-full h-40 object-cover rounded-md mb-3"
               />
               <h4 className="text-lg font-semibold mb-2">{article.title}</h4>
-              <p className="text-sm text-gray-700 mb-3">
+              <p className="text-sm text-gray-700">
                 {article.content.replace(/<[^>]+>/g, "").slice(0, 100)}...
               </p>
-              <button
-                onClick={() => navigate(`/blog/${article.id}`)}
-                className="px-3 py-1 bg-black text-white rounded hover:bg-gray-800 text-sm"
-              >
-                Read More
-              </button>
             </div>
           ))}
         </div>

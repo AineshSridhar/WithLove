@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 import {
   HeartIcon,
   ChatBubbleLeftRightIcon,
-} from '@heroicons/react/24/outline';
-import { InstagramLogoIcon } from '@radix-ui/react-icons';
+} from "@heroicons/react/24/outline";
+import { LinkedInLogoIcon } from "@radix-ui/react-icons";
 
 const imagePaths = [
   "/pic1.jpg",
@@ -33,12 +33,31 @@ const ContactPage = () => {
           {/* Contact Form */}
           <form className="space-y-4">
             <div className="flex flex-col sm:flex-row gap-4">
-              <input type="text" placeholder="Your Name" className="flex-1 p-3 border rounded-md shadow-sm" />
-              <input type="email" placeholder="Your Email" className="flex-1 p-3 border rounded-md shadow-sm" />
+              <input
+                type="text"
+                placeholder="Your Name"
+                className="flex-1 p-3 border rounded-md shadow-sm"
+              />
+              <input
+                type="email"
+                placeholder="Your Email"
+                className="flex-1 p-3 border rounded-md shadow-sm"
+              />
             </div>
-            <input type="text" placeholder="Subject" className="p-3 border rounded-md shadow-sm w-full" />
-            <textarea placeholder="Your Message" rows="4" className="p-3 border rounded-md shadow-sm w-full"></textarea>
-            <button type="submit" className="bg-black text-white px-6 py-2 rounded-md hover:bg-gray-800">
+            <input
+              type="text"
+              placeholder="Subject"
+              className="p-3 border rounded-md shadow-sm w-full"
+            />
+            <textarea
+              placeholder="Your Message"
+              rows="4"
+              className="p-3 border rounded-md shadow-sm w-full"
+            ></textarea>
+            <button
+              type="submit"
+              className="bg-black text-white px-6 py-2 rounded-md hover:bg-gray-800"
+            >
               Send
             </button>
           </form>
@@ -46,9 +65,14 @@ const ContactPage = () => {
 
         {/* Follow Section */}
         <div className="mt-10 bg-gray-900 text-white rounded-md py-4 px-6 flex items-center justify-between">
-          <p className="text-sm font-semibold">Follow me on Instagram</p>
-          <button className="bg-black bg-opacity-50 rounded-full p-2 hover:bg-opacity-70">
-            <InstagramLogoIcon className="h-6 w-6" />
+          <p className="text-sm font-semibold">Follow me on LinkedIn</p>
+          <button
+  className="bg-black bg-opacity-50 rounded-full p-2 hover:bg-opacity-70 cursor-pointer"
+  onClick={() =>
+    window.open("https://www.linkedin.com/in/ainesh-sridhar-17bb39251/", "_blank")
+  }
+>
+            <LinkedInLogoIcon className="h-6 w-6" />
           </button>
         </div>
       </section>

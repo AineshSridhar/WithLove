@@ -12,17 +12,15 @@ const Header = () => {
     <>
       {/* Main Header */}
       <header className="fixed top-0 left-0 right-0 z-40 flex justify-between items-center px-6 py-4 bg-transparent text-orange-700">
-        <button
-          onClick={toggleNav}
-          className="text-2xl focus:outline-none cursor-pointer"
-        >
-          {isNavOpen ? <XMarkIcon className="h-6 w-6" /> : "☰"}
-        </button>
-        <h1 className="text-xl font-semibold">With Love</h1>
-        <button className="text-2xl focus:outline-none">
-          <MagnifyingGlassIcon className="h-6 w-6" />
-        </button>
-      </header>
+  <button
+    onClick={toggleNav}
+    className="text-2xl focus:outline-none cursor-pointer"
+  >
+    {isNavOpen ? <XMarkIcon className="h-6 w-6" /> : "☰"}
+  </button>
+  <h1 className="text-xl font-semibold mx-auto">With Love</h1>
+</header>
+
 
       {/* Mobile Navigation */}
       {isNavOpen && (

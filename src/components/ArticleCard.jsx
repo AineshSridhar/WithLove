@@ -4,13 +4,6 @@ import { useNavigate } from "react-router-dom"; // Use useNavigate instead of us
 const ArticleCard = ({ title, category, time, excerpt, imageUrl, id }) => {
   const navigate = useNavigate(); // Initialize useNavigate
 
-  const handleReadMore = () => {
-    // Navigate to the dynamic page (could be a detailed article page)
-    console.log("Article ID:", id);
-
-    navigate(`/blog/${id}`);
-  };
-
   return (
     <div
       className="flex gap-6 mb-6 w-[700px] p-4 hover:bg-gray-200 transition-colors" // Add hover background highlight
@@ -28,7 +21,10 @@ const ArticleCard = ({ title, category, time, excerpt, imageUrl, id }) => {
         <h4 className="text-3xl font-semibold mt-1">{title}</h4>
         <p className="text-gray-600 mt-1 text-sm">{excerpt}</p>
         <button
-          onClick={handleReadMore}
+          onClick={() => {
+            navigate(`/blog/${id}`);
+            window.scrollTo(0, 0);
+          }}
           className="mt-2 text-sm text-white bg-black px-5 py-3 cursor-pointer"
         >
           Read more

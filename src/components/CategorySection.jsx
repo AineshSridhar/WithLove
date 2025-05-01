@@ -67,8 +67,7 @@ const CategorySection = () => {
               onClick={() => handleCategoryClick(cat)}
             >
               <div className="bg-black text-white w-full aspect-square flex flex-col justify-center items-center text-center cursor-pointer">
-                <div className="bg-gray-400 w-12 h-12 mb-2 rounded-md" />
-                <span className="text-sm">{cat}</span>
+                <span className="text-lg">{cat}</span>
               </div>
             </div>
           ))}

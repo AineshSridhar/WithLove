@@ -36,12 +36,6 @@ const AuthorCard = () => {
               >
                 <FaLinkedin className="text-black" size={30} />
               </a>
-              <a
-                href="#"
-                className="bg-white w-8 h-8 flex items-center justify-center rounded-full"
-              >
-                <FaYoutube className="text-black" size={30} />
-              </a>
             </div>
           </div>
         </div>
