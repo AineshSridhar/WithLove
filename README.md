@@ -25,8 +25,8 @@ Created with **React.js** and **TailwindCSS**, this site celebrates the selfless
 To run this project locally:
 
 # Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/AineshSridhar/WithLove.git
+cd WithLove
 
 # Install dependencies
 npm install
