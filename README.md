@@ -35,7 +35,7 @@ npm install
 npm run dev
 
 # Special Thanks
-Expert Hire by Interax AI Pvt. Ltd. for the inspiring challenge
-Dr. G. Viswanathan Challenge for sparking creativity
-Shriram R Sir, Placement Head — for his support and motivational guidance
-All the mothers and important women in our lives — this one’s for you ❤️
+Expert Hire by Interax AI Pvt. Ltd. for the inspiring challenge  
+Dr. G. Viswanathan Challenge for sparking creativity  
+Shriram R Sir, Placement Head — for his support and motivational guidance  
+All the mothers and important women in our lives — this one’s for you ❤️  
