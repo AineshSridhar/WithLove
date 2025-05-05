@@ -20,34 +20,6 @@ Created with **React.js** and **TailwindCSS**, this site celebrates the selfless
 - Vite
 - Vercel (Deployment)
 
-## 📁 Folder Structure
-
-src/
-├── components/ # Reusable UI components
-│ ├── CategorySection.jsx
-│ ├── Destination.jsx
-│ ├── Footer.jsx
-│ ├── FrequentlyRead.jsx
-│ ├── Header.jsx
-│ ├── HeroSection.jsx
-│ ├── HeroSectionAboutMe.jsx
-│ └── RecentArticles.jsx
-│
-├── data/
-│ └── blogData.json # Blog content data
-│
-├── pages/ # Individual page views
-│ ├── AboutMePage.jsx
-│ ├── BlogPage.jsx
-│ ├── CategoriesPage.jsx
-│ ├── ContactPage.jsx
-│ └── HomePage.jsx
-│
-├── App.jsx # Main component with routing
-├── App.css
-├── index.css
-├── main.jsx
-
 ## 🛠️ Getting Started
 
 To run this project locally:
